@@ -37,10 +37,10 @@ const studentList = document.getElementsByTagName('li');
        "invoke" the function
 ***/
 const showPage = ( list, page ) => {
-  for (let i = 0; i <= 10; i ++ 1);
-
+  //for (let i = 0; i <= 10; i ++ 1);
+    console.log(list);
 }
-
+showPage(studentList,1);
 
 
 
