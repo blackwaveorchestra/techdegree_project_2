@@ -38,8 +38,8 @@ const pageItems = document.getElementsByTagName('student-list');
        "invoke" the function
 ***/
 const showPage = ( list, page ) => {
-  const startIndex = (document.studentList * 10) - 10;
-  const endIndex = document.studentList * 10 - 1;
+  const startIndex = (page * 10) - 10;
+  const endIndex = page * 10 - 1;
     console.log(startIndex);
     console.log(endIndex);
   for (let i = 0; i <= 10; i ++) {
