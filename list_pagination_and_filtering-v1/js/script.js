@@ -17,8 +17,9 @@ FSJS project 2 - List Filter and Pagination
    scoped to that function.
 ***/
 const studentList = document.getElementsByTagName('li');
+const pageItems = document.getElementsByTagName('student-list');
   console.log(studentList);
-
+  console.log(pageItems);
 
 
 
