@@ -38,8 +38,16 @@ const pageItems = document.getElementsByTagName('student-list');
        "invoke" the function
 ***/
 const showPage = ( list, page ) => {
-  //for (let i = 0; i <= 10; i ++ 1);
-    console.log(list);
+  const startIndex = (studentList.length * 10) - 10;
+  const endIndex = studentList.length * 10;
+    console.log(startIndex);
+    console.log(endIndex);
+  for (let i = 0; i <= 10; i ++) {
+
+    //not sure what code block should be written here in order to cycle thru the loop.
+  }
+
+
 }
 showPage(studentList,1);
 
