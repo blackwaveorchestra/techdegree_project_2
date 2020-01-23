@@ -46,10 +46,9 @@ const showPage = ( list, page ) => {
 
     //not sure what code block should be written here in order to cycle thru the loop.
   }
-
-
 }
 showPage(studentList,1);
+  console.log(showPage);
 
 
 
